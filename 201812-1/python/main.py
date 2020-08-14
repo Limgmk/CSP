@@ -1,15 +1,15 @@
 def main():
     r, y, g = map(int, input().split())
     n = int(input())
-    totalTime = 0
+    total_time = 0
     for i in range(0, n):
         k, t = map(int, input().split())
         if k == 0 or k == 1:
-            totalTime += t
+            total_time += t
         elif k == 2:
-            totalTime += t + r
+            total_time += t + r
 
-    print(f'{totalTime}')
+    print(f'{total_time}')
 
 
 if __name__ == '__main__':
